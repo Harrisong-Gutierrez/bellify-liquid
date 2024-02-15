@@ -1,34 +1,18 @@
 import React from "react";
+import { list } from "../../../constants/footerList";
 
 const FooterList = () => {
-  return (
-    <div>
+  const renderedList = () => {
+    return list.map((section) => (
       <div>
-        <h2>Tienda</h2>
-        <p>Servicios</p>
-        <p>Productos</p>
-        <p>Bodas</p>
-        <p>Estilos</p>
-        <p>Locales Bellify</p>
+        <h2>{section.title}</h2>
+        {section.items.map((item) => (
+          <p>{item}</p>
+        ))}
       </div>
-      <div>
-        <h2>Sobre Bellify</h2>
-        <p>Nuestro equipo</p>
-        <p>Partners</p>
-        <p>Blog</p>
-        <p>Reviews</p>
-        <p>Prensa y medios</p>
-        <p>Únete a nosotros</p>
-      </div>
-      <div>
-        <h2>Ayuda</h2>
-        <p>FAQ</p>
-        <p>Términos y condiciones</p>
-        <p>Privacidad</p>
-        <p>Contacto</p>
-      </div>
-    </div>
-  );
+    ));
+  };
+  return <div>{renderedList()}</div>;
 };
 
 export default FooterList;
