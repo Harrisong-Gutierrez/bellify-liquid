@@ -5,10 +5,10 @@ import { v4 as uuidv4 } from "uuid";
 const FooterList = () => {
   const renderedList = () => {
     return list.map((section) => (
-      <div key={uuidv4()} className=".bg-primary">
+      <div key={uuidv4()}>
         <h2>{section.title}</h2>
         {section.items.map((item) => (
-          <p>{item}</p>
+          <p key={uuidv4()}>{item}</p>
         ))}
       </div>
     ));
