@@ -1,5 +1,14 @@
+import PropTypes from "prop-types";
+import FooterList from "../FooterList";
+
 function Footer() {
-	return <div>From Footer</div>;
+  return (
+    <footer>
+      <FooterList />
+    </footer>
+  );
 }
+
+Footer.propTypes = {};
 
 export default Footer;

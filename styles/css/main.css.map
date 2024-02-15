@@ -91,10 +91,11 @@
 		"../../node_modules/bootstrap/scss/helpers/_vr.scss",
 		"../../node_modules/bootstrap/scss/utilities/_api.scss",
 		"../scss/components/_index.scss",
-		"../scss/bases/_variables.scss",
+		"../scss/components/_footer.scss",
 		"../scss/bases/_index.scss",
 		"../scss/bases/_bases.scss",
 		"../scss/bases/_reset.scss",
+		"../scss/bases/_variables.scss",
 		"../scss/pages/_index.scss"
 	],
 	"names": [],
