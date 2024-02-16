@@ -13,7 +13,7 @@ const FooterList = () => {
       </div>
     ));
   };
-  return <div>{renderedList()}</div>;
+  return <div className="Footer-list">{renderedList()}</div>;
 };
 
 export default FooterList;

@@ -43,3 +43,18 @@ export const síguenosList = [
     instagramrAlt: "instagram",
   },
 ];
+
+export const iconsList = [
+  {
+    visaLogo: "/visa.png",
+    maestroLogo: "/maestro.png",
+    americanexpressLogo: "/americanexpress.png",
+    maestrocardLogo: "/maestrocard.png",
+    width: 25,
+    height: 20,
+    visaAlt: "visalogo",
+    maestroAlt: "maestrologo",
+    americanexpressAlt: "americanexpresslogo",
+    maestrocardAlt: "maestrocardlogo",
+  },
+];

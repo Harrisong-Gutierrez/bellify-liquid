@@ -9288,4 +9288,21 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
+.Footer {
+  background-color: #313131; }
+  .Footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+  .Footer-list {
+    display: flex; }
+  .Footer-logos {
+    display: flex; }
+  .Footer-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .Footer-icons {
+    display: flex; }
+
 /*# sourceMappingURL=main.css.map */
