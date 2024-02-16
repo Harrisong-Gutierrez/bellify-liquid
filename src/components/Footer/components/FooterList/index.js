@@ -4,12 +4,13 @@ import { list } from "../../../../../constants/footerList";
 const FooterList = () => {
   const renderedList = () => {
     return list.map((section) => (
-      <div key={uuidv4()}>
-        <h2>{section.title}</h2>
-
-        {section.items.map((item) => (
-          <p key={uuidv4()}>{item}</p>
-        ))}
+      <div className="dropdown" key={uuidv4()}>
+        <h2 className="dropbtn">{section.title}</h2>
+        <div className="dropdown-content">
+          {section.items.map((item) => (
+            <p key={uuidv4()}>{item}</p>
+          ))}
+        </div>
       </div>
     ));
   };
