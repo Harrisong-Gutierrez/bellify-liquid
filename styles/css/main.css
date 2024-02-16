@@ -9288,6 +9288,12 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
+h2, .h2 {
+  color: white; }
+
+p {
+  color: white; }
+
 .Footer {
   background-color: #313131; }
   .Footer-content {
