@@ -24,8 +24,8 @@ export const appsList = [
   {
     googleplayImg: "/googleplay.png",
     appstoreImg: "/appstore.png",
-    width: 197,
-    height: 64,
+    width: 149,
+    height: 49,
     googleplayAlt: "googleplay",
     appstoreAlt: "appstore",
   },

@@ -9288,18 +9288,21 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
-h2, .h2 {
-  color: white; }
-
-p {
-  color: white; }
-
 .Footer {
   background-color: #313131; }
   .Footer-content {
     display: flex;
     align-items: center;
-    justify-content: space-between; }
+    flex-direction: column; }
+  .Footer-title {
+    width: 197px;
+    height: 29px;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 30px;
+    color: #FFFFFF; }
+  .Footer-images {
+    display: flex; }
   .Footer-list {
     display: flex; }
   .Footer-logos {

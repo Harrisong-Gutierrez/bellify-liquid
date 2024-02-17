@@ -7,25 +7,27 @@ import FooterForms from "./components/FooterForms";
 function Footer() {
   return (
     <footer className="Footer">
-      <section className="Footer-content container">
+      <section className="Footer-content ">
         <div>
-          <h2>Apps</h2>
-          <figure>
-            <Image
-              src={appsList[0].googleplayImg}
-              width={appsList[0].width}
-              height={appsList[0].height}
-              alt={appsList[0].googleplayAlt}
-            />
-          </figure>
-          <figure>
-            <Image
-              src={appsList[0].appstoreImg}
-              width={appsList[0].width}
-              height={appsList[0].height}
-              alt={appsList[0].appstoreAlt}
-            />
-          </figure>
+          <h2 className="Footer-title">Apps</h2>
+          <div className="Footer-images">
+            <figure>
+              <Image 
+                src={appsList[0].googleplayImg}
+                width={appsList[0].width}
+                height={appsList[0].height}
+                alt={appsList[0].googleplayAlt}
+              />
+            </figure>
+            <figure>
+              <Image 
+                src={appsList[0].appstoreImg}
+                width={appsList[0].width}
+                height={appsList[0].height}
+                alt={appsList[0].appstoreAlt}
+              />
+            </figure>
+          </div>
         </div>
         <div>
           <FooterList />

@@ -4,9 +4,29 @@
     &-content {
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        flex-direction: column;
+
+
+       
+
     }
 
+    &-title {
+        width: 197px;
+        height: 29px;
+        font-size: 18px;
+        font-weight: normal;
+        line-height: 30px;
+        color: $white;
+    }
+
+
+
+    &-images {
+        display: flex;
+    }
+
+ 
     &-list {
         display: flex;
     }
