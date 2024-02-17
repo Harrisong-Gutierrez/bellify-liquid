@@ -9288,23 +9288,37 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
+h2, .h2 {
+  margin: 0; }
+
+figure {
+  display: flex;
+  margin: 0; }
+
 .Footer {
   background-color: #313131; }
   .Footer-content {
     display: flex;
-    align-items: center;
-    flex-direction: column; }
+    flex-direction: column;
+    padding-left: 36px;
+    padding-right: 33px; }
   .Footer-title {
     width: 197px;
     height: 29px;
     font-size: 18px;
     font-weight: normal;
     line-height: 30px;
-    color: #FFFFFF; }
+    color: #FFFFFF;
+    margin-top: 37px;
+    margin-bottom: 24px;
+    height: 29px;
+    width: 100%; }
   .Footer-images {
-    display: flex; }
+    display: flex;
+    justify-content: space-around; }
   .Footer-list {
-    display: flex; }
+    display: flex;
+    flex-direction: column; }
   .Footer-logos {
     display: flex; }
   .Footer-form {
@@ -9315,9 +9329,6 @@ textarea.form-control-lg {
     display: flex; }
 
 .dropbtn {
-  padding: 10px;
-  font-size: 16px;
-  border: none;
   cursor: pointer; }
 
 .dropdown:hover {
@@ -9332,5 +9343,25 @@ textarea.form-control-lg {
 
 .dropdown:hover .dropdown-content {
   display: block; }
+
+.FooterList-list {
+  display: flex;
+  flex-direction: column; }
+
+.FooterList-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.FooterList-title {
+  width: 197px;
+  height: 29px;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 30px;
+  color: #FFFFFF; }
+
+.FooterList-header {
+  width: 100%; }
 
 /*# sourceMappingURL=main.css.map */
