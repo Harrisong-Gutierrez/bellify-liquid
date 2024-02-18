@@ -36,8 +36,6 @@ export const síguenosList = [
     twitterImg: "/twitter.png",
     faceboockImg: "/faceboock.png",
     instagramImg: "/instagram.png",
-    width: 25,
-    height: 20,
     twitterAlt: "twitter",
     faceboockAlt: "faceboock",
     instagramrAlt: "instagram",

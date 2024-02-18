@@ -65,7 +65,7 @@ function Footer() {
         <hr  className="FooterList-hr"/>
       </section>
 
-      <section>
+      <section className="FooterList-form">
         <FooterForms title="Newsletter" />
       </section>
     </footer>

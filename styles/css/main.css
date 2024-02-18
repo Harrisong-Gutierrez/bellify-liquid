@@ -9313,6 +9313,14 @@ figure {
     margin-bottom: 24px;
     height: 29px;
     width: 100%; }
+  .Footer-button {
+    width: 53px;
+    height: 42px;
+    color: #FFFFFF;
+    background-color: #A191B2;
+    font-size: 26px;
+    border-radius: 1px #FFFFFF;
+    border-color: #FFFFFF; }
   .Footer-images {
     display: flex;
     justify-content: space-around; }
@@ -9326,7 +9334,10 @@ figure {
       margin-right: 38px;
       margin-left: 37px; }
   .Footer-form {
-    width: 100%; }
+    width: 308px; }
+    .Footer-form-content {
+      width: 308px;
+      display: flex; }
   .Footer-icons {
     display: flex; }
 
@@ -9351,6 +9362,10 @@ figure {
   .FooterList-list {
     display: flex;
     flex-direction: column; }
+  .FooterList-form {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
   .FooterList-header {
     display: flex;
     justify-content: space-between;
@@ -9385,5 +9400,29 @@ figure {
     border-top: 1px solid #FFFFFF;
     margin-bottom: 45px;
     margin-top: 65px; }
+
+.Input-firstInpt {
+  width: 100%;
+  height: 42px;
+  background-color: #313131;
+  margin-bottom: 4px;
+  border: 1px solid #FFFFFF; }
+
+.Input-secondInpt {
+  width: 255px;
+  height: 42px;
+  border-color: #FFFFFF;
+  background-color: #313131;
+  border: 1px solid #FFFFFF; }
+
+.Input-button {
+  background-color: #A191B2; }
+
+input::placeholder {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 18px;
+  color: white;
+  margin-left: 13px; }
 
 /*# sourceMappingURL=main.css.map */

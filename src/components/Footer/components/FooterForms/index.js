@@ -1,14 +1,22 @@
 import Input from "@/components/Input";
 import Image from "next/image";
 import { iconsList } from "../../../../../constants/footerList";
+import { GoArrowRight } from "react-icons/go";
+
 
 const FooterForms = ({ title }) => {
+
+  const submitButton = (
+    <button  className="Footer-button">
+      <GoArrowRight />
+    </button>
+  );
   return (
     <div className="Footer-form">
-      <div>
+      <div >
         <h2>{title}</h2>
-        <Input type="text" id="firstId" />
-        <Input type="text" id="secondId" />
+        <Input placeholder="Nombre" type="text" id="firstId" inptClass="Input-firstInpt"  />
+        <Input placeholder="Correo electrónico" type="text" id="secondId"  button={submitButton} inptClass="Input-secondInpt" />
       </div>
       <div className="Footer-icons">
         <figure>

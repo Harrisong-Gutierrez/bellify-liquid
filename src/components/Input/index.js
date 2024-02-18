@@ -1,14 +1,14 @@
 import React from "react";
 
-const Input = ({ type, id }) => {
+const Input = ({ type, id, button , inptClass, placeholder}) => {
   return (
-    <form>
-      <div className="mb-3">
-        <input type={type} id={id} className="" />
+    <form className="Input">
+     <div className="Input-content">
+     <div className="Footer-form-content">
+        <input type={type} id={id} className={inptClass} placeholder={placeholder}/>
+        {button}
       </div>
-      {/* <button type="submit" className="btn btn-primary">
-        Submit
-      </button> */}
+     </div>
     </form>
   );
 };
