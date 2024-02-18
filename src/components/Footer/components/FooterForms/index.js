@@ -4,7 +4,7 @@ import { iconsList } from "../../../../../constants/footerList";
 
 const FooterForms = ({ title }) => {
   return (
-    <div className="Footer-form container">
+    <div className="Footer-form">
       <div>
         <h2>{title}</h2>
         <Input type="text" id="firstId" />

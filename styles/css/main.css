@@ -9326,10 +9326,7 @@ figure {
       margin-right: 38px;
       margin-left: 37px; }
   .Footer-form {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column; }
+    width: 100%; }
   .Footer-icons {
     display: flex; }
 
