@@ -9,7 +9,7 @@ const FooterList = () => {
        <div className="FooterList-header">
        <h2 className="FooterList-title dropbtn">{section.title}</h2>
        <figure>
-        <Image src="/Polígono.png" height={4} width={9} />
+        <Image alt="Polígono" src="/Polígono.png" height={4} width={9} />
        </figure>
        </div>
         <div className="dropdown-content">
