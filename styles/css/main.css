@@ -9338,8 +9338,6 @@ figure {
     .Footer-form-content {
       width: 308px;
       display: flex; }
-  .Footer-icons {
-    display: flex; }
 
 .dropbtn {
   cursor: pointer; }
@@ -9425,5 +9423,24 @@ input::placeholder {
   line-height: 18px;
   color: white;
   padding-left: 13px; }
+
+.FooterForms-secondtitle {
+  width: 197px;
+  height: 29px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #FFFFFF;
+  margin-bottom: 29px; }
+
+.FooterForms-icons {
+  display: flex;
+  justify-content: center;
+  gap: 7px; }
+
+.FooterForms-icon {
+  width: 60px;
+  height: 37px;
+  background-color: #FFFFFF;
+  border-radius: 4px; }
 
 /*# sourceMappingURL=main.css.map */

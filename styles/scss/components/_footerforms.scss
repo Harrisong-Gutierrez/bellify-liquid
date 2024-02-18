@@ -1,0 +1,25 @@
+.FooterForms {
+
+    &-secondtitle {
+        width: 197px;
+        height: 29px;
+        font-size: 18px;
+        line-height: 30px;
+        color: $white;
+        margin-bottom: 29px;
+    }
+
+    &-icons {
+        display: flex;
+        justify-content: center;
+        gap:7px;
+    }
+
+    &-icon {
+        width: 60px;
+        height: 37px;
+        background-color: $white;
+        border-radius: 4px;
+    }
+
+}

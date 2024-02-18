@@ -13,38 +13,38 @@ const FooterForms = ({ title }) => {
   );
   return (
     <div className="Footer-form">
-      <div >
-        <h2>{title}</h2>
+      <div>
+        <h2 className="FooterForms-secondtitle">{title}</h2>
         <Input placeholder="Nombre" type="text" id="firstId" inptClass="Input-firstInpt"  />
         <Input placeholder="Correo electrónico" type="text" id="secondId"  button={submitButton} inptClass="Input-secondInpt" />
       </div>
-      <div className="Footer-icons">
-        <figure>
-          <Image
+      <div className="FooterForms-icons">
+        <figure className="FooterForms-icon">
+          <Image 
             src={iconsList[0].visaLogo}
             width={iconsList[0].width}
             height={iconsList[0].height}
             alt={iconsList[0].visaAlt}
           />
         </figure>
-        <figure>
-          <Image
+        <figure className="FooterForms-icon">
+          <Image 
             src={iconsList[0].maestrocardLogo}
             width={iconsList[0].width}
             height={iconsList[0].height}
             alt={iconsList[0].visaAlt}
           />
         </figure>
-        <figure>
-          <Image
+        <figure className="FooterForms-icon">
+          <Image 
             src={iconsList[0].maestroLogo}
             width={iconsList[0].width}
             height={iconsList[0].height}
             alt={iconsList[0].visaAlt}
           />
         </figure>
-        <figure>
-          <Image
+        <figure className="FooterForms-icon">
+          <Image 
             src={iconsList[0].americanexpressLogo}
             width={iconsList[0].width}
             height={iconsList[0].height}
