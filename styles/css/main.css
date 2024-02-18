@@ -9320,7 +9320,7 @@ figure {
     background-color: #A191B2;
     font-size: 26px;
     border-radius: 1px #FFFFFF;
-    border-color: #FFFFFF; }
+    border-color: rgba(0, 0, 0, 0.5); }
   .Footer-images {
     display: flex;
     justify-content: space-around; }
@@ -9413,7 +9413,8 @@ figure {
   height: 42px;
   border-color: #FFFFFF;
   background-color: #313131;
-  border: 1px solid #FFFFFF; }
+  border: 1px solid #FFFFFF;
+  border-right: none; }
 
 .Input-button {
   background-color: #A191B2; }
@@ -9423,6 +9424,6 @@ input::placeholder {
   font-weight: 300;
   line-height: 18px;
   color: white;
-  margin-left: 13px; }
+  padding-left: 13px; }
 
 /*# sourceMappingURL=main.css.map */
