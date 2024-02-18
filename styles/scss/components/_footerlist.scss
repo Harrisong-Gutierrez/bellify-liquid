@@ -1,8 +1,6 @@
 .FooterList  {
     margin-top: 33px;
-
- 
-
+    
     &-list {
         display: flex;
         flex-direction: column;
@@ -58,12 +56,10 @@
 
 
     &-hr {
-        margin-top: 1rem;
-        margin-bottom: 1rem;
         border: 0;
-        border-top: 1px solid $white;
-        margin-bottom: 45px;
-        margin-top: 65px;
+        border-top: 0.5px solid $white;
+        margin-bottom: 44px;
+        margin-top: 64px;
     }
 
  

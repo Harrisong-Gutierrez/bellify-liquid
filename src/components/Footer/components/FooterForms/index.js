@@ -20,7 +20,7 @@ const FooterForms = ({ title }) => {
       </div>
       <div className="FooterForms-icons">
         <figure className="FooterForms-icon">
-          <Image 
+          <Image className="FooterForms-logo"
             src={iconsList[0].visaLogo}
             width={iconsList[0].width}
             height={iconsList[0].height}
@@ -28,7 +28,7 @@ const FooterForms = ({ title }) => {
           />
         </figure>
         <figure className="FooterForms-icon">
-          <Image 
+          <Image className="FooterForms-logo"
             src={iconsList[0].maestrocardLogo}
             width={iconsList[0].width}
             height={iconsList[0].height}
@@ -36,15 +36,15 @@ const FooterForms = ({ title }) => {
           />
         </figure>
         <figure className="FooterForms-icon">
-          <Image 
+          <Image className="FooterForms-logo"
             src={iconsList[0].maestroLogo}
             width={iconsList[0].width}
             height={iconsList[0].height}
             alt={iconsList[0].visaAlt}
           />
         </figure>
-        <figure className="FooterForms-icon">
-          <Image 
+        <figure >
+          <Image className="FooterForms-icon"
             src={iconsList[0].americanexpressLogo}
             width={iconsList[0].width}
             height={iconsList[0].height}

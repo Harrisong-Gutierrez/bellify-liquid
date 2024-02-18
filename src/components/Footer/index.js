@@ -12,7 +12,7 @@ function Footer() {
           <h2 className="Footer-title">Apps</h2>
           <div className="Footer-images">
             <figure>
-              <Image 
+              <Image
                 src={appsList[0].googleplayImg}
                 width={appsList[0].width}
                 height={appsList[0].height}
@@ -20,7 +20,7 @@ function Footer() {
               />
             </figure>
             <figure>
-              <Image 
+              <Image
                 src={appsList[0].appstoreImg}
                 width={appsList[0].width}
                 height={appsList[0].height}
@@ -33,10 +33,11 @@ function Footer() {
           <FooterList />
         </div>
         <div className="FooterList-social">
-        <h2 className="FooterList-social-title">Síguenos</h2>
+          <h2 className="FooterList-social-title">Síguenos</h2>
           <div className="Footer-logos">
-            <figure >
-              <Image className="FooterList-logo"
+            <figure>
+              <Image
+                className="FooterList-logo"
                 src={síguenosList[0].twitterImg}
                 width={25}
                 height={20}
@@ -44,7 +45,8 @@ function Footer() {
               />
             </figure>
             <figure>
-              <Image className="Footer-logos-spacing FooterList-logo"
+              <Image
+                className="Footer-logos-spacing FooterList-logo"
                 src={síguenosList[0].faceboockImg}
                 width={12}
                 height={26}
@@ -52,7 +54,8 @@ function Footer() {
               />
             </figure>
             <figure>
-              <Image  className="FooterList-logo"
+              <Image
+                className="FooterList-logo"
                 src={síguenosList[0].instagramImg}
                 width={27}
                 height={27}
@@ -60,14 +63,23 @@ function Footer() {
               />
             </figure>
           </div>
-         
         </div>
-        <hr  className="FooterList-hr"/>
+        <hr className="FooterList-hr" />
       </section>
-
       <section className="FooterList-form">
         <FooterForms title="Newsletter" />
       </section>
+      <div className="Footer-policy">
+        <p className="Footer-policy-title">© 2019. Bellify. All rights reserved.</p>
+        <figure>
+          <Image className="Footer-policy-image"
+            src="/Grupo-footer.png"
+            width={172}
+            height={20}
+            alt="policy-Img"
+          />
+        </figure>
+      </div>
     </footer>
   );
 }

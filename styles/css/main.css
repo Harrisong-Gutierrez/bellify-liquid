@@ -9295,6 +9295,9 @@ figure {
   display: flex;
   margin: 0; }
 
+p {
+  margin: 0; }
+
 .Footer {
   background-color: #313131; }
   .Footer-content {
@@ -9302,6 +9305,29 @@ figure {
     flex-direction: column;
     padding-left: 36px;
     padding-right: 33px; }
+  .Footer-policy {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000; }
+    .Footer-policy-title {
+      width: auto;
+      height: 15px;
+      font-weight: 500;
+      color: #FFFFFF;
+      line-height: 18px;
+      font-size: 12px;
+      font-style: normal;
+      border-width: 1px;
+      border-style: dashed;
+      margin-top: 16px;
+      margin-bottom: 11px; }
+    .Footer-policy-image {
+      width: 172px;
+      height: 20px;
+      margin-bottom: 15px; }
   .Footer-title {
     width: 197px;
     height: 29px;
@@ -9392,12 +9418,10 @@ figure {
     line-height: 30px;
     color: #FFFFFF; }
   .FooterList-hr {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
     border: 0;
-    border-top: 1px solid #FFFFFF;
-    margin-bottom: 45px;
-    margin-top: 65px; }
+    border-top: 0.5px solid #FFFFFF;
+    margin-bottom: 44px;
+    margin-top: 64px; }
 
 .Input-firstInpt {
   width: 100%;
@@ -9435,12 +9459,20 @@ input::placeholder {
 .FooterForms-icons {
   display: flex;
   justify-content: center;
-  gap: 7px; }
+  gap: 7px;
+  margin-top: 42px;
+  margin-bottom: 44px; }
 
 .FooterForms-icon {
   width: 60px;
   height: 37px;
   background-color: #FFFFFF;
-  border-radius: 4px; }
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.FooterForms-logo {
+  width: 30px; }
 
 /*# sourceMappingURL=main.css.map */
