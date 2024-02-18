@@ -1,19 +1,45 @@
 .FooterList  {
-    width: 307px;
-    height: 29px;
+    margin-top: 33px;
 
+ 
 
     &-list {
         display: flex;
         flex-direction: column;
-        margin-top: 33px;
+      
     }
 
     &-header {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        width: 100%;
+        height: 29px;
+    
     }
+
+    &-social {
+        display: flex;
+        justify-content: space-between;
+        height: 29px;
+        width: 100%;
+        margin-top: 33px;
+    
+
+        &-title {
+          height: 29px;  
+          color: $white;
+          font-size: 18px;
+          line-height: 30px;
+          font-weight: normal;
+        }
+    }
+
+    &-logo {
+ 
+        color: $white;
+    }
+
 
     &-title {
         width: 197px;
@@ -24,7 +50,15 @@
         color: $white;
     }
 
-    &-header {
-        width: 100%;
+
+    &-hr {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border: 0;
+        border-top: 1px solid $white;
+        margin-bottom: 45px;
+        margin-top: 65px;
     }
+
+ 
 }

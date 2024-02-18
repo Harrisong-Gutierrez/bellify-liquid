@@ -32,35 +32,37 @@ function Footer() {
         <div>
           <FooterList />
         </div>
-        <div>
-          <h2>Síguenos</h2>
+        <div className="FooterList-social">
+        <h2 className="FooterList-social-title">Síguenos</h2>
           <div className="Footer-logos">
-            <figure>
-              <Image
+            <figure >
+              <Image className="FooterList-logo"
                 src={síguenosList[0].twitterImg}
-                width={síguenosList[0].width}
-                height={síguenosList[0].height}
+                width={25}
+                height={20}
                 alt={síguenosList[0].twitterAlt}
               />
             </figure>
             <figure>
-              <Image
+              <Image className="Footer-logos-spacing FooterList-logo"
                 src={síguenosList[0].faceboockImg}
-                width={síguenosList[0].width}
-                height={síguenosList[0].height}
+                width={12}
+                height={26}
                 alt={síguenosList[0].faceboockAlt}
               />
             </figure>
             <figure>
-              <Image
+              <Image  className="FooterList-logo"
                 src={síguenosList[0].instagramImg}
-                width={síguenosList[0].width}
-                height={síguenosList[0].height}
+                width={27}
+                height={27}
                 alt={síguenosList[0].instagramrAlt}
               />
             </figure>
           </div>
+         
         </div>
+        <hr  className="FooterList-hr"/>
       </section>
 
       <section>

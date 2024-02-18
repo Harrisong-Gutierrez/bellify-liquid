@@ -37,12 +37,20 @@
 
     &-logos {
         display: flex;
+        align-items: center;
+
+
+        &-spacing {
+            margin-right: 38px;
+            margin-left: 37px;
+        }
     }
 
     &-form {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        flex-direction: column;
     }
 
     &-icons {
