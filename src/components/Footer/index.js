@@ -8,7 +8,7 @@ function Footer() {
   return (
     <footer className="Footer">
       <section className="Footer-content ">
-        <div>
+        <div className="Footer-main">
           <h2 className="Footer-title">Apps</h2>
           <div className="Footer-images">
             <figure>
@@ -70,9 +70,12 @@ function Footer() {
         <FooterForms title="Newsletter" />
       </section>
       <div className="Footer-policy">
-        <p className="Footer-policy-title">© 2019. Bellify. All rights reserved.</p>
+        <p className="Footer-policy-title">
+          © 2019. Bellify. All rights reserved.
+        </p>
         <figure>
-          <Image className="Footer-policy-image"
+          <Image
+            className="Footer-policy-image"
             src="/Grupo-footer.png"
             width={172}
             height={20}
