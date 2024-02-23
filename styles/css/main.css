@@ -9407,6 +9407,10 @@ p {
   .FooterList-list {
     display: flex;
     flex-direction: column; }
+  .FooterList-desktop {
+    display: none; }
+  .FooterList-mobile {
+    display: block; }
   .FooterList-form {
     display: flex;
     justify-content: center;
@@ -9446,6 +9450,10 @@ p {
     margin-bottom: 44px;
     margin-top: 64px; }
   @media (min-width: 992px) {
+    .FooterList-desktop {
+      display: block; }
+    .FooterList-mobile {
+      display: none; }
     .FooterList-social {
       justify-content: flex-start;
       flex-direction: column;
@@ -9453,7 +9461,8 @@ p {
       margin-top: 0;
       width: 30%; }
     .FooterList-social-title {
-      margin-bottom: 35px; }
+      margin-bottom: 35px;
+      font-size: 30px; }
     .FooterList-title {
       margin-bottom: 35px;
       font-size: 30px; }
