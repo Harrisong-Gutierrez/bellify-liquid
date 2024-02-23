@@ -9395,6 +9395,15 @@ p {
       display: flex; }
     .Footer-appImage {
       margin-bottom: 10px; } }
+  @media (min-width: 768px) {
+    .Footer-form {
+      width: 100%; }
+    .Footer-formImputs {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+    .Footer-form-content {
+      width: 500px; } }
 
 @media (min-width: 992px) {
   .Footer {
@@ -9501,6 +9510,10 @@ p {
 
 .Input-button {
   background-color: #A191B2; }
+
+@media (min-width: 768px) {
+  .Input-secondInpt {
+    width: 447px; } }
 
 @media (min-width: 992px) {
   .Input-content {

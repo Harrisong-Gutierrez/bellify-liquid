@@ -20,6 +20,13 @@
         background-color: $purple;
     }
 
+    @include media-breakpoint-up(md) {
+        &-secondInpt {
+            width: 447px;
+        }
+    }
+
+
     @include media-breakpoint-up(lg) {
         &-content {
             margin-right: 20px;
