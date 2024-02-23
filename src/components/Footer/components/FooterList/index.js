@@ -9,12 +9,19 @@ const FooterList = () => {
         <div className="FooterList-header">
           <h2 className="FooterList-title ">{section.title}</h2>
           <figure className="FooterList-Polígono">
-            <Image alt="Polígono" src="/Polígono.png" height={4} width={9} />
+            <Image
+              alt="Polígono-paragraph"
+              src="/Polígono.png"
+              height={4}
+              width={9}
+            />
           </figure>
         </div>
-        <div className="">
+        <div className="FooterList-texts">
           {section.items.map((item) => (
-            <p key={uuidv4()}>{item}</p>
+            <p className="FooterList-paragraph" key={uuidv4()}>
+              {item}
+            </p>
           ))}
         </div>
       </div>

@@ -9392,7 +9392,9 @@ p {
       align-items: center; }
     .Footer-formImputs {
       width: 50%;
-      display: flex; } }
+      display: flex; }
+    .Footer-appImage {
+      margin-bottom: 10px; } }
 
 @media (min-width: 992px) {
   .Footer {
@@ -9409,6 +9411,8 @@ p {
     display: flex;
     justify-content: center;
     align-items: center; }
+  .FooterList-paragraph {
+    color: #FFFFFF; }
   .FooterList-header {
     display: flex;
     justify-content: space-between;
@@ -9459,7 +9463,11 @@ p {
     .FooterList-Polígono {
       display: none; }
     .FooterList-header {
-      height: auto; } }
+      height: auto; }
+    .FooterList-paragraph {
+      width: auto;
+      font-size: 14px;
+      margin-bottom: 17px; } }
 
 @media (min-width: 992px) {
   .FooterList {

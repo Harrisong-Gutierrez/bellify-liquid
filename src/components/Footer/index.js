@@ -11,7 +11,7 @@ function Footer() {
         <div className="Footer-main">
           <h2 className="Footer-title">Apps</h2>
           <div className="Footer-images">
-            <figure>
+            <figure className="Footer-appImage">
               <Image
                 src={appsList[0].googleplayImg}
                 width={appsList[0].width}
@@ -21,6 +21,7 @@ function Footer() {
             </figure>
             <figure>
               <Image
+                className="Footer-appImage"
                 src={appsList[0].appstoreImg}
                 width={appsList[0].width}
                 height={appsList[0].height}
