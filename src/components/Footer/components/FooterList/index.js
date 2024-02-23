@@ -13,10 +13,8 @@ const FooterList = () => {
     };
     return list.map((section) => (
       <div className=" FooterList FooterList-mobile" key={uuidv4()}>
-        <div className="FooterList-header">
-          <h2 className="FooterList-title " onClick={toggleDropdown}>
-            {section.title}
-          </h2>
+        <div className="FooterList-header" onClick={toggleDropdown}>
+          <h2 className="FooterList-title">{section.title}</h2>
           <figure className="FooterList-Polígono">
             <Image
               alt="Polígono-paragraph"
