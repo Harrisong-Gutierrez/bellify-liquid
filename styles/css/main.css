@@ -9534,6 +9534,8 @@ input::placeholder {
 @media (min-width: 992px) {
   .FooterForms-secondtitle {
     font-size: 30px;
-    margin-right: 30px; } }
+    margin-right: 30px;
+    height: 42px;
+    margin-bottom: 0; } }
 
 /*# sourceMappingURL=main.css.map */
