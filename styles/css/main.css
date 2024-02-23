@@ -9413,8 +9413,7 @@ p {
     align-items: center; }
   .FooterList-paragraph {
     color: #FFFFFF;
-    font-size: 12px;
-    display: none; }
+    font-size: 12px; }
   .FooterList-header {
     display: flex;
     justify-content: space-between;
