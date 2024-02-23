@@ -13,7 +13,7 @@ const FooterForms = ({ title }) => {
   );
   return (
     <div className="Footer-form">
-      <div>
+      <div className="Footer-formImputs">
         <h2 className="FooterForms-secondtitle">{title}</h2>
         <Input placeholder="Nombre" type="text" id="firstId" inptClass="Input-firstInpt"  />
         <Input placeholder="Correo electrónico" type="text" id="secondId"  button={submitButton} inptClass="Input-secondInpt" />

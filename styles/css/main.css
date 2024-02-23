@@ -9376,7 +9376,15 @@ p {
       flex-direction: row;
       width: 1585px;
       padding-left: 0;
-      padding-right: 0; } }
+      padding-right: 0; }
+    .Footer-form {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+    .Footer-formImputs {
+      width: 50%;
+      display: flex; } }
 
 @media (min-width: 992px) {
   .Footer {
@@ -9429,7 +9437,10 @@ p {
     .FooterList-social {
       justify-content: flex-start;
       flex-direction: column;
-      align-items: center; } }
+      align-items: center; }
+    .FooterList-form {
+      display: flex;
+      width: 1585px; } }
 
 .Input-firstInpt {
   width: 100%;
