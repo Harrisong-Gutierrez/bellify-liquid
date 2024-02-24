@@ -9390,7 +9390,7 @@ p {
     .Footer-content {
       display: flex;
       flex-direction: row;
-      width: 1585px;
+      width: 83%;
       padding-left: 0;
       padding-right: 0;
       margin-top: 97px; }
@@ -9497,7 +9497,7 @@ p {
       font-size: 30px; }
     .FooterList-form {
       display: flex;
-      width: 1585px;
+      width: 83%;
       line-height: 20px; }
     .FooterList-Polígono {
       display: none; }
@@ -9517,7 +9517,7 @@ p {
 @media (min-width: 992px) {
   .FooterList {
     margin-top: 0;
-    width: 344px; } }
+    width: 34%; } }
 
 .Input-firstInpt {
   width: 100%;
