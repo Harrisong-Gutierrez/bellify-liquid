@@ -9365,6 +9365,15 @@ p {
     .Footer-form-content {
       width: 308px;
       display: flex; }
+  @media (min-width: 768px) {
+    .Footer-form {
+      width: 100%; }
+    .Footer-formImputs {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+    .Footer-form-content {
+      width: 500px; } }
   @media (min-width: 992px) {
     .Footer-list {
       display: flex;
@@ -9392,18 +9401,21 @@ p {
       align-items: center; }
     .Footer-formImputs {
       width: 50%;
-      display: flex; }
+      display: flex;
+      flex-direction: row; }
     .Footer-appImage {
       margin-bottom: 10px; } }
-  @media (min-width: 768px) {
-    .Footer-form {
-      width: 100%; }
-    .Footer-formImputs {
-      display: flex;
+  @media (max-width: 1199.98px) {
+    .Footer-content {
       flex-direction: column;
-      align-items: center; }
-    .Footer-form-content {
-      width: 500px; } }
+      width: auto; }
+    .Footer-form {
+      flex-direction: column; }
+    .Footer-formImputs {
+      flex-direction: column; }
+    .Footer-images {
+      flex-direction: row;
+      column-gap: 10%; } }
 
 @media (min-width: 992px) {
   .Footer {
@@ -9487,6 +9499,9 @@ p {
       width: auto;
       font-size: 14px;
       margin-bottom: 17px; } }
+  @media (max-width: 1199.98px) {
+    .FooterList-form {
+      width: 100%; } }
 
 @media (min-width: 992px) {
   .FooterList {
